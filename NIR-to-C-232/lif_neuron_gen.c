@@ -1,6 +1,13 @@
-// Copyright (c) 2025 Simone Delvecchio
-// Licensed under the MIT License (see LICENSE file for details)
-// Part of the "snn2mcu" project - MSc Thesis, Politecnico di Torino
+/* 
+Copyright (C) 2025 Simone Delvecchio
+ 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License.
+
+This work is part of the MSc Thesis: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
+Politecnico di Torino.
+*/
 
 #include "stm32h7xx_hal.h"
 #include "../Inc/lif_neuron_gen.h"
@@ -317,4 +324,5 @@ void SNN_Reset_State(void) {
     }
 
 }
+
 
