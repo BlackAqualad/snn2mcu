@@ -1,3 +1,7 @@
+# Copyright (c) 2025 Simone Delvecchio
+# Licensed under the MIT License (see LICENSE file for details)
+# Part of the "snn2mcu" project - MSc Thesis, Politecnico di Torino
+
 """
 Convert the small SNN (2-2-3-2 architecture) to NIR format.
 This script mirrors the style of `SNNTorchToNIR.py` but embeds the parameters
@@ -109,3 +113,4 @@ print(f"  Input: {NUM_IN}")
 print(f"  Layer1: {NUM_L1} (tau={tau}, threshold={threshold}, beta={beta:.6f})")
 print(f"  Layer2: {NUM_L2} (tau={tau}, threshold={threshold})")
 print(f"  Layer3: {NUM_L3} (tau={tau}, threshold={threshold})")
+
