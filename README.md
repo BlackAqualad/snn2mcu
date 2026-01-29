@@ -1,12 +1,56 @@
-# snn2mcu
-Automated NIR-to-C workflow for deploying Spiking Neural Networks (SNNs) on low-power microcontrollers. Based on my MSc Thesis at Politecnico di Torino.
+# snn2mcu: SNN Deployment on Low-Power Microcontrollers
 
-The generator V2 is different from the NIR-to-C, in the former, there is the linear support and the tau is calculated from the NIR default export settings (not exponential but linear tau from beta)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Thesis](https://img.shields.io/badge/Thesis-Politecnico%20di%20Torino-blue)](https://webthesis.biblio.polito.it/38593/)
 
-For recursion, use the NIR-TO-C folder one (V2 not tested for custom recursive architectures).
+Automated **NIR-to-C** workflow for deploying Spiking Neural Networks (SNNs) on resource-constrained microcontrollers. This project is based on my MSc Thesis at Politecnico di Torino.
 
-Use that when using R-Leaky, which is not supported by the export_nir function.
+---
 
-If there are only Leaky (LIF), use the V2 instead, which supports Linear and Affine and has the correct beta from tau computation compatible with export_nir
+## 🚀 Overview & Versioning
 
-The V2 also has minor differences to support big architectures to make them fit into the board.
+This repository provides two main versions of the code generator:
+
+* **Generator V2 (Recommended for LIF):**
+    * Supports **Linear** and **Affine** layers.
+    * Features correct **beta-from-tau** computation (linear tau) compatible with default `export_nir` settings.
+    * Optimized for **large architectures** to fit memory-constrained boards.
+* **Original NIR-to-C (Recommended for Recursion):**
+    * Use this version for **R-Leaky** (Recurrent LIF) neurons.
+    * Required when using architectures not yet supported by the standard `export_nir` function.
+
+---
+
+## 🛠 How to Use
+
+### 1. Requirements
+Ensure you have the following installed:
+* Python 3.8+
+* `nir` library (`pip install nir`)
+* A C compiler for your target MCU (e.g., GCC for ARM)
+
+### 2. Workflow
+1.  **Export your model:** Generate a `.nir` file from your SNN framework (e.g., Norse, Sinabs, SpikingJelly).
+2.  **Choose your generator:** * For standard LIF models: use the scripts in the `V2` folder.
+    * For recurrent models: use the `NIR-to-C` folder.
+3.  **Run the translation:**
+    ```bash
+    python main_translator.py --input your_model.nir --output build/
+    ```
+4.  **Deploy:** Include the generated `.h` and `.c` files in your MCU project.
+
+---
+
+## 🎓 Citation
+
+If you use **snn2mcu** or the NIR-to-C workflow in your research or project, please cite my Master's Thesis:
+
+**BibTeX:**
+```bibtex
+@mastersthesis{snn2mcu2025,
+  author  = {Simone Delvecchio},
+  title   = {Optimization of Spiking Neural Networks execution on low-power microcontrollers},
+  school  = {Politecnico di Torino},
+  year    = {2025},
+  url     = {[https://webthesis.biblio.polito.it/38593/](https://webthesis.biblio.polito.it/38593/)}
+}
