@@ -4,8 +4,12 @@
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License.
 #
-# This work is part of the MSc Thesis: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
+# This work is part of the MSc Thesis: 
+# "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
 # Politecnico di Torino.
+#
+# Thesis: https://webthesis.biblio.polito.it/38593/
+# GitHub: https://github.com/BlackAqualad/snn2mcu
 
 import torch
 import torch.nn as nn
@@ -115,4 +119,5 @@ for t in range(4):
     print("Output Spikes:", [int(s) for s in output.squeeze().tolist()])
 
     print()
+
 
