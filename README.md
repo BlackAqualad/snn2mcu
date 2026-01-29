@@ -30,13 +30,10 @@ Ensure you have the following installed:
 * A C compiler for your target MCU (e.g., GCC for ARM)
 
 ### 2. Workflow
-1.  **Export your model:** Generate a `.nir` file from your SNN framework (e.g., Norse, Sinabs, SpikingJelly).
+1.  **Export your model:** Generate a `.nir` file from your SNN framework (e.g., snnTorch).
 2.  **Choose your generator:** * For standard LIF models: use the scripts in the `V2` folder.
     * For recurrent models: use the `NIR-to-C` folder.
-3.  **Run the translation:**
-    ```bash
-    python main_translator.py --input your_model.nir --output build/
-    ```
+3.  **Run the translation:** Described in the generator files.
 4.  **Deploy:** Include the generated `.h` and `.c` files in your MCU project.
 
 ---
