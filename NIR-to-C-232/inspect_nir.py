@@ -4,8 +4,12 @@
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License.
 #
-# This work is part of the MSc Thesis: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
+# This work is part of the MSc Thesis: 
+# "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
 # Politecnico di Torino.
+#
+# Thesis: https://webthesis.biblio.polito.it/38593/
+# GitHub: https://github.com/BlackAqualad/snn2mcu
 
 """
 Utility script to open and inspect NIR files.
@@ -198,5 +202,6 @@ except Exception as e:
     print(f"Error loading NIR file: {e}")
     import traceback
     traceback.print_exc()
+
 
 
