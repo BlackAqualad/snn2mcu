@@ -1,3 +1,7 @@
+# Copyright (c) 2025 Simone Delvecchio
+# Licensed under the MIT License (see LICENSE file for details)
+# Part of the "snn2mcu" project - MSc Thesis, Politecnico di Torino
+
 """
 NIR to C Code Generator for STM32H7 with ARM CMSIS-DSP
 This program converts NIR network descriptions to embedded C code (.c and .h files)
@@ -949,3 +953,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
