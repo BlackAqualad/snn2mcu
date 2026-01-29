@@ -1,9 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite the underlying thesis."
 authors:
   - family-names: "Delvecchio"
     given-names: "Simone"
-title: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
+    affiliation: "Politecnico di Torino"
+title: "snn2mcu: Automated NIR-to-C workflow for Spiking Neural Networks"
 version: 1.0.0
 date-released: 2025-12-12
 url: "https://webthesis.biblio.polito.it/38593/"
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: "Delvecchio"
+      given-names: "Simone"
+  title: "Optimization of Spiking Neural Networks execution on low-power microcontrollers"
+  school: "Politecnico di Torino"
+  year: 2025
+  thesis-type: "MSc Thesis"
+  url: "https://webthesis.biblio.polito.it/38593/"
