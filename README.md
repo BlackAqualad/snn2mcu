@@ -13,7 +13,7 @@ This repository provides two main versions of the code generator:
 
 * **Generator V2 (Recommended for LIF):**
     * Supports **Linear** and **Affine** layers.
-    * Features correct **beta-from-tau** computation (linear tau) compatible with default `export_nir` settings.
+    * Features correct **beta-from-tau** computation (linear tau) compatible with default `export_nir` settings from snnTorch framework.
     * Optimized for **large architectures** to fit memory-constrained boards.
 * **Original NIR-to-C (Recommended for Recursion):**
     * Use this version for **R-Leaky** (Recurrent LIF) neurons.
