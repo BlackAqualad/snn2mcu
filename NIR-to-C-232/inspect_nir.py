@@ -1,3 +1,7 @@
+# Copyright (c) 2025 Simone Delvecchio
+# Licensed under the MIT License (see LICENSE file for details)
+# Part of the "snn2mcu" project - MSc Thesis, Politecnico di Torino
+
 """
 Utility script to open and inspect NIR files.
 This script loads a .nir file and displays its structure, nodes, and edges.
@@ -189,3 +193,4 @@ except Exception as e:
     print(f"Error loading NIR file: {e}")
     import traceback
     traceback.print_exc()
+
