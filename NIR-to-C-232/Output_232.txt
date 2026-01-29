@@ -1,0 +1,106 @@
+THE SIMULATION BEGINS...
+
+
+Running timestep 1
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 12.6007
+Neuron #1 Membrane Potential (before reset): 0.0000
+Neuron #0 Membrane Potential (after reset): 12.6007
+Neuron #1 Membrane Potential (after reset): 0.0000
+Output Spikes: 0 0
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 0.0000
+Neuron #1 Membrane Potential (before reset): 0.0000
+Neuron #2 Membrane Potential (before reset): 0.0000
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 0.0000
+Neuron #2 Membrane Potential (after reset): 0.0000
+Output Spikes: 0 0 0
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 0.0000
+Neuron #1 Membrane Potential (before reset): 0.0000
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 0.0000
+Output Spikes: 0 0
+
+Running timestep 2
+Value of current_value - reset)*decay : 11.4013
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 11.4013
+Neuron #1 Membrane Potential (before reset): 14.1235
+Neuron #0 Membrane Potential (after reset): 11.4013
+Neuron #1 Membrane Potential (after reset): 14.1235
+Output Spikes: 0 0
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 0.0000
+Neuron #1 Membrane Potential (before reset): 0.0000
+Neuron #2 Membrane Potential (before reset): 0.0000
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 0.0000
+Neuron #2 Membrane Potential (after reset): 0.0000
+Output Spikes: 0 0 0
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 0.0000
+Neuron #1 Membrane Potential (before reset): 0.0000
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 0.0000
+Output Spikes: 0 0
+
+Running timestep 3
+Value of current_value - reset)*decay : 10.3149
+Value of current_value - reset)*decay : 12.7777
+Neuron #0 Membrane Potential (before reset): 22.9156
+Neuron #1 Membrane Potential (before reset): 12.7777
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 12.7777
+Output Spikes: 1 0
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 16.5863
+Neuron #1 Membrane Potential (before reset): 12.0086
+Neuron #2 Membrane Potential (before reset): 15.8630
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 12.0086
+Neuron #2 Membrane Potential (after reset): 0.0000
+Output Spikes: 1 0 1
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 20.0561
+Neuron #1 Membrane Potential (before reset): 33.7371
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 0.0000
+Output Spikes: 1 1
+
+Running timestep 4
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 11.5600
+Neuron #0 Membrane Potential (before reset): 0.0000
+Neuron #1 Membrane Potential (before reset): 25.6835
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 0.0000
+Output Spikes: 0 1
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 10.8642
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 2.3925
+Neuron #1 Membrane Potential (before reset): 28.8299
+Neuron #2 Membrane Potential (before reset): 10.3424
+Neuron #0 Membrane Potential (after reset): 2.3925
+Neuron #1 Membrane Potential (after reset): 0.0000
+Neuron #2 Membrane Potential (after reset): 10.3424
+Output Spikes: 0 1 0
+Value of current_value - reset)*decay : 0.0000
+Value of current_value - reset)*decay : 0.0000
+Neuron #0 Membrane Potential (before reset): 18.3380
+Neuron #1 Membrane Potential (before reset): 5.5847
+Neuron #0 Membrane Potential (after reset): 0.0000
+Neuron #1 Membrane Potential (after reset): 5.5847
+Output Spikes: 1 0
