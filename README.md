@@ -1,6 +1,6 @@
 # snn2mcu: SNN Deployment on Low-Power Microcontrollers
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Thesis](https://img.shields.io/badge/Thesis-Politecnico%20di%20Torino-blue)](https://webthesis.biblio.polito.it/38593/)
 
 Automated **NIR-to-C** workflow for deploying Spiking Neural Networks (SNNs) on resource-constrained microcontrollers. This project is based on my MSc Thesis at Politecnico di Torino.
