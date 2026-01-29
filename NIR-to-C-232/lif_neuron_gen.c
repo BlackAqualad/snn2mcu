@@ -1,3 +1,7 @@
+// Copyright (c) 2025 Simone Delvecchio
+// Licensed under the MIT License (see LICENSE file for details)
+// Part of the "snn2mcu" project - MSc Thesis, Politecnico di Torino
+
 #include "stm32h7xx_hal.h"
 #include "../Inc/lif_neuron_gen.h"
 #include "arm_math.h"
@@ -313,3 +317,4 @@ void SNN_Reset_State(void) {
     }
 
 }
+
