@@ -1,4 +1,4 @@
-# Copyright (C) 2025 Simone Delvecchio
+# Copyright (C) 2025 Simone Delvecchi
 # 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -962,6 +962,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
