@@ -1,3 +1,7 @@
+// Copyright (c) 2025 Simone Delvecchio
+// Licensed under the MIT License (see LICENSE file for details)
+// Part of the "snn2mcu" project - MSc Thesis, Politecnico di Torino
+
 #ifndef LIF_NEURON_GEN_H
 #define LIF_NEURON_GEN_H
 
@@ -39,3 +43,4 @@ void SNN_Run_Timestep(const q7_t* input_spikes, q7_t* output_spikes);
 void SNN_Reset_State(void);
 
 #endif // LIF_NEURON_GEN_H
+
