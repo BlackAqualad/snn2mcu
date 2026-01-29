@@ -4,8 +4,12 @@
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License.
 #
-# This work is part of the MSc Thesis: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
+# This work is part of the MSc Thesis: 
+# "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
 # Politecnico di Torino.
+#
+# Thesis: https://webthesis.biblio.polito.it/38593/
+# GitHub: https://github.com/BlackAqualad/snn2mcu
 
 """
 NIR to C Code Generator for STM32H7 with ARM CMSIS-DSP
@@ -958,5 +962,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
