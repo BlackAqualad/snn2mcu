@@ -1,20 +1,24 @@
+# Copyright (c) 2025 Simone Delvecchio
+# Licensed under the MIT License (see LICENSE file for details)
+# Part of the "snn2mcu" project - MSc Thesis, Politecnico di Torino
+
 import torch
 import torch.nn as nn
 import snntorch as snn
 from snntorch import surrogate
 
-# Parameters (match C code)
+# Parameters 
 NUM_IN = 2
 NUM_L1 = 2
 NUM_L2 = 3
 NUM_L3 = 2
 
 tau = 10.0
-threshold = 15.0  # Match C code (15.0)
-reset_value = 0.0  # Match C code (0.0)
+threshold = 15.0  
+reset_value = 0.0  
 beta = torch.exp(torch.tensor(-1.0 / tau))  # decay factor
 
-# Weight values from C code
+
 weights1 = [12.6005, 14.1253]  
 weights2 = [16.5873, 12.0087, 15.8634, 2.3923, 17.9656, 10.3427]
 weights3 = [18.0123, 18.8139, 18.3371, 5.5851, 2.0452, 14.9224]
@@ -104,4 +108,5 @@ for t in range(4):
     print("Layer 2 Membrane Potentials:", [f"{v:.4f}" for v in mem2.squeeze().tolist()])
     print("Layer 3 Membrane Potentials:", [f"{v:.4f}" for v in mem3.squeeze().tolist()])
     print("Output Spikes:", [int(s) for s in output.squeeze().tolist()])
+
     print()
