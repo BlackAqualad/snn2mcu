@@ -40,7 +40,7 @@ Ensure you have the following installed:
 
 ## 🎓 Citation
 
-If you use **snn2mcu** or the NIR-to-C workflow in your research or project, please cite my Master's Thesis:
+If you use snn2mcu or the NIR-to-C workflow in your research or project, please cite my Master's Thesis. You can use the BibTeX entry below or the "Cite this repository" button in the GitHub sidebar.
 
 **BibTeX:**
 ```bibtex
