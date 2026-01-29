@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Delvecchio"
     given-names: "Simone"
-title: "snn2mcu: Automated NIR-to-C workflow for SNNs"
+title: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
 version: 1.0.0
 date-released: 2025-12-12
 url: "https://webthesis.biblio.polito.it/38593/"
