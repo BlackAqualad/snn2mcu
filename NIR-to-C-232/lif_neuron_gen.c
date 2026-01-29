@@ -1,12 +1,16 @@
 /* 
-Copyright (C) 2025 Simone Delvecchio
+ Copyright (C) 2025 Simone Delvecchio
  
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License.
 
-This work is part of the MSc Thesis: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
-Politecnico di Torino.
+ This work is part of the MSc Thesis: 
+ "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
+ Politecnico di Torino.
+
+ Thesis: https://webthesis.biblio.polito.it/38593/
+ GitHub: https://github.com/BlackAqualad/snn2mcu
 */
 
 #include "stm32h7xx_hal.h"
@@ -324,5 +328,6 @@ void SNN_Reset_State(void) {
     }
 
 }
+
 
 
