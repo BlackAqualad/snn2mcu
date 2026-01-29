@@ -1,12 +1,16 @@
 /* 
-Copyright (C) 2025 Simone Delvecchio
+ Copyright (C) 2025 Simone Delvecchio
  
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License.
 
-This work is part of the MSc Thesis: "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
-Politecnico di Torino.
+ This work is part of the MSc Thesis: 
+ "Optimization of Spiking Neural Networks execution on low-power microcontrollers."
+ Politecnico di Torino.
+
+ Thesis: https://webthesis.biblio.polito.it/38593/
+ GitHub: https://github.com/BlackAqualad/snn2mcu
 */
 
 #ifndef LIF_NEURON_GEN_H
@@ -50,5 +54,6 @@ void SNN_Run_Timestep(const q7_t* input_spikes, q7_t* output_spikes);
 void SNN_Reset_State(void);
 
 #endif // LIF_NEURON_GEN_H
+
 
 
